@@ -1,1 +1,48 @@
 /*  your css code here. If applicable */
+   :root {
+            background-color: rgb(135, 206, 235);
+        }
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background-color: #f8f8f8;
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .card h1 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        .card p {
+            margin: 5px 0;
+        }
+        .card .price {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .card button {
+            background-color: #ff6666;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .card button:hover {
+            background-color: #ff3333;
+        }
